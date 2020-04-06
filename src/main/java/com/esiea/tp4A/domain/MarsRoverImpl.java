@@ -24,7 +24,7 @@ public class MarsRoverImpl implements MarsRover {
 				position = position.right();
 			}
 		}
-
+        //System.out.println(position.getX()+" "+position.getY()+" "+position.getDirection());
 		return position;
 	}
 }

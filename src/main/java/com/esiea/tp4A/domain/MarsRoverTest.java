@@ -8,9 +8,11 @@ class MarsRoverTest {
 
 	@ParameterizedTest
 	@CsvSource({
-			"'', 0, 0, NORTH",
-			"f, 0, 1, NORTH",
-			"b, 0, -1, NORTH",
+			"f, 0, -24, NORTH",
+            "rf, 1, 25, EAST",
+            "ff, 0, -23, NORTH",
+            "lf, -1, 25, WEST"
+			/*"b, 0, -1, NORTH",
 			"l, 0, 0, WEST",
 			"r, 0, 0, EAST",
 			"ff, 0, 2, NORTH",
@@ -21,15 +23,14 @@ class MarsRoverTest {
 			"lb, 1, 0, WEST",
 			"llb, 0, 1, SOUTH",
 			"rb, -1, 0, EAST",
-
-			"fflb, 1, 2, WEST"
+			"fflb, 1, 2, WEST"*/
 	})
 	void rover_stays_at_initial_position(String command, int expectedX, int expectedY, Direction expectedDirection) {
-		MarsRover marsRover = new MarsRoverImpl(0, 0, Direction.NORTH);
+		MarsRover marsRover = new MarsRoverImpl(0, 25, Direction.NORTH);
 
 		Position newPosition = marsRover.move(command);
-
-		Assertions.assertThat(newPosition)
-				.isEqualTo(Position.of(expectedX, expectedY, expectedDirection));
+        //Assertions.assertThat(newPosition).isEqualTo(Position.of(expectedX, expectedY, expectedDirection));
+        Assertions.assertThat(newPosition).isEqualToComparingFieldByField(Position.of(expectedX, expectedY, expectedDirection));
 	}
+
 }
