@@ -1,5 +1,7 @@
 package com.esiea.tp4A.domain;
 
+import java.util.Collections;
+import java.util.Random;
 import java.util.Set;
 
 public interface PlanetMap {
@@ -13,4 +15,6 @@ public interface PlanetMap {
     }
     
     Set<Position> obstaclePositions();
+
+
 }
