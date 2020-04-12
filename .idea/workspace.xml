@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b56bc6a-9513-4239-9527-7f050c4f28c0" name="Default Changelist" comment="Tests completion">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/CarteSpherique30Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/MoveForwardBackwardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/CarteSpherique30Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/CarteSpherique30Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="command" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ObstacleTest">
+  <component name="RunManager" selected="JUnit.MoveForwardBackwardTest">
     <configuration name="MarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SADDD_Arch_Log_ESUFA4A" />
       <extension name="coverage">
@@ -84,22 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTest.initGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SADDD_Arch_Log_ESUFA4A" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esiea.tp4A.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esiea.tp4A.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.domain.MarsRoverTest" />
-      <option name="METHOD_NAME" value="initGrid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MarsRoverTest.rover_should_not_move_when_obstacle_found" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SADDD_Arch_Log_ESUFA4A" />
       <extension name="coverage">
@@ -112,6 +96,21 @@
       <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.domain.MarsRoverTest" />
       <option name="METHOD_NAME" value="rover_should_not_move_when_obstacle_found(java.lang.String,int,int,com.esiea.tp4A.domain.Direction)" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveForwardBackwardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SADDD_Arch_Log_ESUFA4A-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esiea.tp4A.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esiea.tp4A.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.domain.MoveForwardBackwardTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoveForwardBackwardTest" />
         <item itemvalue="JUnit.ObstacleTest" />
         <item itemvalue="JUnit.MarsRoverTest" />
         <item itemvalue="JUnit.MarsRoverTest.rover_should_not_move_when_obstacle_found" />
         <item itemvalue="JUnit.MarsRoverTest.gridShouldNotBeNull" />
-        <item itemvalue="JUnit.MarsRoverTest.initGrid" />
       </list>
     </recent_temporary>
   </component>
