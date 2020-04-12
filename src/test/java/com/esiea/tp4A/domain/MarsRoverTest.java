@@ -98,17 +98,6 @@ class MarsRoverTest {
         //Assertions.assertThat(newPosition).isEqualTo(Position.of(expectedX, expectedY, expectedDirection));
         Assertions.assertThat(newPosition).isEqualToComparingFieldByField(Position.of(expectedX, expectedY, expectedDirection));
     }
-    @ParameterizedTest
-    @CsvSource({
-        "rf, 25, 0, EAST",
-    })
-    void rover_should_not_move_when_obstacle_found(String command, int expectedX, int expectedY, Direction expectedDirection){
-        map.addObstacle(Position.of(2, 2, Direction.NORTH));
-        map.addObstacle(Position.of(-24, 0, Direction.NORTH));
-        MarsRover marsRover = new MarsRoverImpl(25, 0, Direction.NORTH, map);
 
-        Position newPosition = marsRover.move(command);
-        Assertions.assertThat(newPosition).isEqualToComparingFieldByField(Position.of(expectedX, expectedY, expectedDirection));
-    }
 }
 

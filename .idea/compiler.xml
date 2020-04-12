@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
+
         <module name="SADDD_Arch_Log_ESUFA4A" />
         <module name="SADDD_Arch_Log_ESUFA4A-master" />
         <module name="MarsRover" />
-=======
+
         <module name="MarsRover" />
         <module name="SADDD_Arch_Log_ESUFA4A" />
->>>>>>> 3d3dd9ea7afffd837d8ba5a538001b3cf79299f9
+
       </profile>
     </annotationProcessing>
   </component>
