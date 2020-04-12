@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b56bc6a-9513-4239-9527-7f050c4f28c0" name="Default Changelist" comment="Tests completion">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/ObstacleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/CarteSpherique30Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/MarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/MarsRoverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/MarsRover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/MarsRover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/MarsRoverImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/MarsRoverImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/MarsRoverTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/PlanetMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/PlanetMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/PlanetMapInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/PlanetMapInit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position$FixedPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position$FixedPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command/MoveBackCommandTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command/MoveForwardCommandTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command/TurnLeftCommandTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command/TurnRightCommandTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,34 +184,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585842232346" />
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1586721030441">
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1586724897132">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1237" height="83" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586455876588" />
     <state width="1537" height="150" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585841215066" />
     <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586711166728" />
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586721030441" />
-    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1586721030439">
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586724897131" />
+    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1586724897130">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1237" height="83" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586455876588" />
     <state width="1537" height="150" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585841215065" />
     <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586711166726" />
-    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1586721030439" />
-    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1586721030438">
+    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1586724897130" />
+    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1586724897130">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1237" height="83" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586455876588" />
     <state width="1537" height="150" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585841215065" />
     <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586711166725" />
-    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1586721030438" />
-    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1586721030440">
+    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1586724897130" />
+    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1586724897131">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1237" height="83" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586455876588" />
     <state width="1537" height="150" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585841215065" />
     <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586711166727" />
-    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1586721030440" />
+    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1586724897131" />
     <state width="1237" height="51" key="GridCell.Tab.1.bottom" timestamp="1586206734661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
