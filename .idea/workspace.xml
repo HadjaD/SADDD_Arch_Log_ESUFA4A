@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1b56bc6a-9513-4239-9527-7f050c4f28c0" name="Default Changelist" comment="Tests completion" />
+=======
+    <list default="true" id="1b56bc6a-9513-4239-9527-7f050c4f28c0" name="Default Changelist" comment="Tests completion">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/MarsRoverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/MarsRoverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/MarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/MarsRoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/PlanetMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/PlanetMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/MoveBackCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/MarsRover.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/command/MoveBackCommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/command/MoveBackCommandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/command/MoveForwardCommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/command/MoveForwardCommandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/command/TurnLeftCommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/command/TurnLeftCommandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/command/TurnRightCommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/command/TurnRightCommandTest.class" afterDir="false" />
+    </list>
+>>>>>>> 3d3dd9ea7afffd837d8ba5a538001b3cf79299f9
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,8 +58,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mars-rover-master" />
+>>>>>>> 3d3dd9ea7afffd837d8ba5a538001b3cf79299f9
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -207,10 +231,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="51" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586206734661" />
+<<<<<<< HEAD
     <state x="247" y="79" key="SettingsEditor" timestamp="1586683953436">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="247" y="79" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1586683953436" />
+=======
+>>>>>>> 3d3dd9ea7afffd837d8ba5a538001b3cf79299f9
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1586432086452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
