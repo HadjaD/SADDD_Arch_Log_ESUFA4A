@@ -8,5 +8,22 @@ public class Laser {
 
     }
 
+    public void Range(int range){
+        this.range = range;
+    }
+
+
+    public void shootNorth() {
+    }
+
+    public void shootSouth() {
+    }
+
+    public void shootEast() {
+    }
+
+    public void shootWest() {
+    }
+
 
 }

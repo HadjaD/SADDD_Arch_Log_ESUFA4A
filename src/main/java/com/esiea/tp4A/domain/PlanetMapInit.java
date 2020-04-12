@@ -45,11 +45,11 @@ public class PlanetMapInit implements PlanetMap {
         int xObstacle;
         int yObstacle;
         for (int i = 0; i < nbObstacles; i++) {
-           xObstacle = (int) (Math.random() * (x - x_)) + x_;
-           yObstacle = (int) (Math.random() * (y - y_)) + y_;
-           this.obstacles.add(Position.of(xObstacle, yObstacle, Direction.NORTH));
+            xObstacle = (int) (Math.random() * (x - x_)) + x_;
+            yObstacle = (int) (Math.random() * (y - y_)) + y_;
+            this.obstacles.add(Position.of(xObstacle, yObstacle, Direction.NORTH));
 
-                //addObstacles(position);
+            //addObstacles(position);
         }
     }
     public void addObstacle(Position position){
@@ -62,4 +62,3 @@ public class PlanetMapInit implements PlanetMap {
         return this.obstacles;
     }
 }
-
