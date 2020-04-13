@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b56bc6a-9513-4239-9527-7f050c4f28c0" name="Default Changelist" comment="Tests completion">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/MoveForwardBackwardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/CarteSpherique30Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/domain/CarteSpherique30Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +42,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mars-rover-master" />
-    &gt;&gt;&gt;&gt;&gt;&gt;&gt; 3d3dd9ea7afffd837d8ba5a538001b3cf79299f9
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="command" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoveForwardBackwardTest">
-    <configuration name="MarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.api in SADDD_Arch_Log_ESUFA4A-master">
+    <configuration name="MarsRoverTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="SADDD_Arch_Log_ESUFA4A" />
       <extension name="coverage">
         <pattern>
@@ -100,21 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveForwardBackwardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SADDD_Arch_Log_ESUFA4A-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.esiea.tp4A.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.esiea.tp4A.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.domain.MoveForwardBackwardTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ObstacleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SADDD_Arch_Log_ESUFA4A-master" />
       <extension name="coverage">
@@ -130,11 +113,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="api in SADDD_Arch_Log_ESUFA4A-master" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="SADDD_Arch_Log_ESUFA4A-master" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esiea.tp4A.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.api in SADDD_Arch_Log_ESUFA4A-master" />
+      <item itemvalue="JUnit.MarsRoverTest" />
+      <item itemvalue="JUnit.MarsRoverTest.gridShouldNotBeNull" />
+      <item itemvalue="JUnit.MarsRoverTest.rover_should_not_move_when_obstacle_found" />
+      <item itemvalue="JUnit.ObstacleTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoveForwardBackwardTest" />
         <item itemvalue="JUnit.ObstacleTest" />
-        <item itemvalue="JUnit.MarsRoverTest" />
         <item itemvalue="JUnit.MarsRoverTest.rover_should_not_move_when_obstacle_found" />
         <item itemvalue="JUnit.MarsRoverTest.gridShouldNotBeNull" />
       </list>
@@ -166,6 +172,10 @@
     </state>
     <state x="307" y="96" key="#MarsRoverTest.rover_should_not_move_when_obstacle_found/0.23.1440.826@0.23.1440.826" timestamp="1586711077218" />
     <state x="307" y="113" key="#MarsRoverTest/0.23.1440.826@0.23.1440.826" timestamp="1586711162221" />
+    <state x="196" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586736479482">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="196" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.827@0.23.1440.827" timestamp="1586736479482" />
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586193712807">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -175,6 +185,14 @@
     </state>
     <state x="581" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586439406690" />
     <state x="697" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585636230908" />
+    <state x="469" y="234" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586736157936">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="469" y="234" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.827@0.23.1440.827" timestamp="1586736157936" />
+    <state x="469" y="242" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586736478226">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="469" y="242" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.827@0.23.1440.827" timestamp="1586736478226" />
     <state x="126" y="0" key="CommitChangelistDialog2" timestamp="1586197525403">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -183,34 +201,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585842232346" />
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1586724897132">
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1586736180368">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1237" height="83" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586455876588" />
     <state width="1537" height="150" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585841215066" />
     <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586711166728" />
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586724897131" />
-    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1586724897130">
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586736180368" />
+    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1586736180367">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1237" height="83" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586455876588" />
     <state width="1537" height="150" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585841215065" />
     <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586711166726" />
-    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1586724897130" />
-    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1586724897130">
+    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1586736180367" />
+    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1586736180365">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1237" height="83" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586455876588" />
     <state width="1537" height="150" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585841215065" />
     <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586711166725" />
-    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1586724897130" />
-    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1586724897131">
+    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1586736180365" />
+    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1586736180367">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1237" height="83" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586455876588" />
     <state width="1537" height="150" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585841215065" />
     <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586711166727" />
-    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1586724897131" />
+    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1586736180367" />
     <state width="1237" height="51" key="GridCell.Tab.1.bottom" timestamp="1586206734661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -227,6 +245,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="51" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586206734661" />
+    <state x="270" y="113" key="Maven.ArtifactSearchDialog" timestamp="1586734763818">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="270" y="113" key="Maven.ArtifactSearchDialog/0.23.1440.827@0.23.1440.827" timestamp="1586734763818" />
     <state x="247" y="79" key="SettingsEditor" timestamp="1586683953436">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
