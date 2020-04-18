@@ -19,7 +19,7 @@ public class LaserTest {
     })
 
     void shootingNorth(int XpositionRover, int YpositionRover, int xObstacle, int yObstacle, int range, Direction directionshoot, boolean expectedObstacle){
-        laser.Range(range);
+        //laser.Range(range);
         planetMapInit.obstaclePositions();
         laser.shootNorth();
 

@@ -17,7 +17,6 @@ public class ObstacleTest {
         map.addObstacle(Position.of(2, 2, Direction.NORTH));
         map.addObstacle(Position.of(-24, 0, Direction.NORTH));
         MarsRover marsRover = new MarsRoverImpl(25, 0, Direction.NORTH, map);
-
         Position newPosition = marsRover.move(command);
         Assertions.assertThat(newPosition).isEqualToComparingFieldByField(Position.of(expectedX, expectedY, expectedDirection));
     }

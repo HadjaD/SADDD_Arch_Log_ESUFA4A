@@ -6,23 +6,11 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-class CarteSpherique30Test {
+class CarteSpherique50Test {
 
-    PlanetMapInit map = new PlanetMapInit(30, 30, 0.15);
-    int height;
-    int weight;
-    @Before
-    public void beforeTestCreateGrid() {
-        map = new PlanetMapInit(30, 30, 0.15);
-
-    }
+    PlanetMapInit map = new PlanetMapInit(50, 50, 0.15);
     @Test
     void gridShouldNotBeNull(){
-        Assertions.assertThat(map).hasNoNullFieldsOrProperties();
-    }
-    @Test
-    void initGrid(){
-        map = new PlanetMapInit(30, 30, 0.15);
         Assertions.assertThat(map).hasNoNullFieldsOrProperties();
     }
     @ParameterizedTest

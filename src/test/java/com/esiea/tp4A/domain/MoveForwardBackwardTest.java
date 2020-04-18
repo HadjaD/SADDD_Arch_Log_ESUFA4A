@@ -8,14 +8,6 @@ import org.junit.jupiter.params.provider.CsvSource;
 public class MoveForwardBackwardTest {
 
     PlanetMapInit map = new PlanetMapInit(50, 50, 0.15);
-    int height;
-    int weight;
-    @Before
-    public void beforeTestCreateGrid() {
-        map = new PlanetMapInit(50, 50, 0.15);
-
-    }
-
     @ParameterizedTest
     @CsvSource({
         "b, 0, -1, NORTH",
