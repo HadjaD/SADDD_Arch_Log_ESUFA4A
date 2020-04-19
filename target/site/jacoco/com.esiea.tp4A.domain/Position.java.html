@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Position.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ArchitectureLogicielle</a> &gt; <a href="index.source.html" class="el_package">com.esiea.tp4A.domain</a> &gt; <span class="el_source">Position.java</span></div><h1>Position.java</h1><pre class="source lang-java linenums">package com.esiea.tp4A.domain;
+
+public interface Position {
+    int getX();
+    int getY();
+    Direction getDirection();
+    static Position of(int x, int y, Direction direction) {
+<span class="fc" id="L8">        return new FixedPosition(x, y, direction);</span>
+    }
+    Position forward(PlanetMap map);
+    Position backward(PlanetMap map);
+    Position left();
+    Position right();
+    final class FixedPosition implements Position {
+        private final int x, y;
+        public boolean isObstacle;
+        private final Direction direction;
+        private PlanetMap planetMap;
+<span class="fc" id="L19">        private int planetHeight = 25;//planetMap.getHeight()/2;</span>
+<span class="fc" id="L20">        private int planetWidth = 25;//planetMap.getWidth()/2;</span>
+<span class="fc" id="L21">        public FixedPosition(int x, int y, Direction direction) {</span>
+<span class="fc" id="L22">            this.x = x;</span>
+<span class="fc" id="L23">            this.y = y;</span>
+<span class="fc" id="L24">            this.direction = direction;</span>
+<span class="fc" id="L25">            this.isObstacle = false;</span>
+<span class="fc" id="L26">        }</span>
+        @Override
+        public int getX() {
+<span class="fc" id="L29">            return x;</span>
+        }
+        @Override
+        public int getY() {
+<span class="fc" id="L33">            return y;</span>
+        }
+        @Override
+        public Direction getDirection() {
+<span class="fc" id="L37">            return direction;</span>
+        }
+        @Override
+        public Position forward(PlanetMap map) {
+<span class="fc" id="L41">            return rotationForward(x, y, direction, map);</span>
+        }
+        public Position rotationForward(int x, int y, Direction direction, PlanetMap map){
+            int newX, newY;
+<span class="pc bpc" id="L45" title="1 of 5 branches missed.">            switch (direction){</span>
+                case NORTH:
+<span class="fc bfc" id="L47" title="All 2 branches covered.">                    if(y &lt; planetHeight){</span>
+<span class="fc" id="L48">                        newY = y + 1;</span>
+                    }else{
+<span class="fc" id="L50">                        newY = -planetHeight + 1;</span>
+                    }
+<span class="pc bpc" id="L52" title="1 of 2 branches missed.">                    return !hasObstacle(x, newY, map) ? Position.of(x, newY, direction): Position.of(x, y, direction);</span>
+                case SOUTH:
+<span class="fc bfc" id="L54" title="All 2 branches covered.">                    if(y &gt; -planetHeight + 1){</span>
+<span class="fc" id="L55">                        newY = y - 1;</span>
+                    }else{
+<span class="fc" id="L57">                        newY = planetHeight;</span>
+                    }
+<span class="pc bpc" id="L59" title="1 of 2 branches missed.">                    return !hasObstacle(x, newY, map) ? Position.of(x, newY, direction): Position.of(x, y, direction);</span>
+                case WEST:
+<span class="fc bfc" id="L61" title="All 2 branches covered.">                    if(x &gt; -planetWidth + 1){</span>
+<span class="fc" id="L62">                        newX = x - 1;</span>
+                    }else{
+<span class="fc" id="L64">                        newX = planetWidth;</span>
+                    }
+<span class="pc bpc" id="L66" title="1 of 2 branches missed.">                    return !hasObstacle(newX, y, map) ? Position.of(newX, y, direction): Position.of(x, y, direction);</span>
+                case EAST:
+<span class="fc bfc" id="L68" title="All 2 branches covered.">                    if(x &lt; planetWidth){</span>
+<span class="fc" id="L69">                        newX = x + 1;</span>
+                    }else{
+<span class="fc" id="L71">                        newX = -planetWidth + 1;</span>
+                    }
+<span class="pc bpc" id="L73" title="1 of 2 branches missed.">                    return !hasObstacle(newX, y, map) ? Position.of(newX, y, direction): Position.of(x, y, direction);</span>
+            }
+<span class="nc" id="L75">            throw new IllegalStateException(&quot;No move from direction&quot; + direction);</span>
+        }
+        public Position rotationBackward(int x, int y, Direction direction, PlanetMap map){
+            int newX, newY;
+<span class="pc bpc" id="L79" title="1 of 5 branches missed.">            switch (direction){</span>
+                case NORTH:
+<span class="pc bpc" id="L81" title="1 of 4 branches missed.">                    if(y &lt;= planetHeight &amp;&amp; y &gt; -planetHeight + 1){</span>
+<span class="fc" id="L82">                        newY = y - 1;</span>
+                    }else{
+<span class="fc" id="L84">                        newY = planetHeight;</span>
+                    }
+<span class="pc bpc" id="L86" title="1 of 2 branches missed.">                    return !hasObstacle(x, newY, map) ? Position.of(x, newY, direction): Position.of(x, y, direction);</span>
+                    //return y &lt;= planetHeight &amp;&amp; y &gt; -planetHeight + 1? Position.of(x, y - 1, direction) : Position.of(x, planetHeight, direction);
+                case SOUTH:
+<span class="pc bpc" id="L89" title="1 of 4 branches missed.">                    if(y &lt; planetHeight &amp;&amp; y &gt; -planetHeight){</span>
+<span class="fc" id="L90">                        newY = y + 1;</span>
+                    }else{
+<span class="fc" id="L92">                        newY = -planetHeight + 1;</span>
+                    }
+<span class="pc bpc" id="L94" title="1 of 2 branches missed.">                    return !hasObstacle(x, newY, map) ? Position.of(x, newY, direction): Position.of(x, y, direction);</span>
+                   // return y &gt; -planetHeight &amp;&amp; y &lt; planetHeight? Position.of(x, y + 1, direction) : Position.of(x, -planetHeight + 1, direction);
+                case WEST:
+<span class="pc bpc" id="L97" title="1 of 4 branches missed.">                    if(x &lt; planetWidth &amp;&amp; x &gt; -planetWidth + 1){</span>
+<span class="fc" id="L98">                        newX = x + 1;</span>
+                    }else{
+<span class="fc" id="L100">                        newX = -planetWidth + 1;</span>
+                    }
+<span class="pc bpc" id="L102" title="1 of 2 branches missed.">                    return !hasObstacle(newX, y, map) ? Position.of(newX, y, direction): Position.of(x, y, direction);</span>
+                    //return x &lt; planetWidth &amp;&amp; x &gt; -planetWidth + 1 ? Position.of(x + 1, y, direction) : Position.of(-planetWidth + 1 , y, direction);
+                case EAST:
+<span class="pc bpc" id="L105" title="1 of 4 branches missed.">                    if(x &gt; -planetWidth + 1 &amp;&amp; x &lt; planetWidth){</span>
+<span class="fc" id="L106">                        newX = x - 1;</span>
+                    }else{
+<span class="fc" id="L108">                        newX = planetWidth;</span>
+                    }
+<span class="pc bpc" id="L110" title="1 of 2 branches missed.">                    return !hasObstacle(newX, y, map) ? Position.of(newX, y, direction): Position.of(x, y, direction);</span>
+            }
+<span class="nc" id="L112">            throw new IllegalStateException(&quot;No move from direction&quot; + direction);</span>
+        }
+        @Override
+        public Position backward(PlanetMap map) {
+<span class="fc" id="L116">            return rotationBackward(x, y, direction, map);</span>
+        }
+        @Override
+        public Position left() {
+<span class="fc" id="L120">            return Position.of(x, y, direction.left());</span>
+        }
+        @Override
+        public Position right() {
+<span class="fc" id="L124">            return Position.of(x, y, direction.right());</span>
+        }
+        private boolean hasObstacle(int x, int y, PlanetMap map) {
+<span class="pc bpc" id="L127" title="1 of 2 branches missed.">            for (Position obstacle : map.obstaclePositions()) {</span>
+<span class="nc bnc" id="L128" title="All 4 branches missed.">                if (obstacle.getX() == x &amp;&amp; obstacle.getY() == y) {</span>
+<span class="nc" id="L129">                   isObstacle = true;</span>
+<span class="nc" id="L130">                    return true;</span>
+                }
+<span class="nc" id="L132">            }</span>
+<span class="fc" id="L133">            return false;</span>
+        }
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
