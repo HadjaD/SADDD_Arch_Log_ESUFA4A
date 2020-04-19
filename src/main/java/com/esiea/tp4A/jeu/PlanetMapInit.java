@@ -30,7 +30,7 @@ public class PlanetMapInit implements PlanetMap {
     }
 
     @Override
-    public Set<Position> obstaclePositions() {
+    public Set<Obstacle> obstaclePositions() {
         return obstacles;
 
     }

@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24672ad0-0e7c-4375-b2d3-bf0178e745c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/CircularPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Jeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/LocalMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/MapFuncs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Mars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/RandomJeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Rover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/RoverApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/RoverPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/PlanetMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/PlanetMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Laser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/PlanetMapInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/PlanetMapInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,8 +52,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.esiea.tp4A" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.esiea.tp4A.jeu" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ObstacleTest.test_obstacle_get">
+  <component name="RunManager" selected="JUnit.CarteSpherique50Test">
     <configuration name="JeuApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.api.JeuApplication" />
       <module name="SADDD_Arch_Log_ESUFA4A-master" />
@@ -51,6 +66,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarteSpherique50Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SADDD_Arch_Log_ESUFA4A-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esiea.tp4A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esiea.tp4A" />
+      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.CarteSpherique50Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarteSpherique50Test" />
         <item itemvalue="JUnit.ObstacleTest.test_obstacle_get" />
         <item itemvalue="Application.JeuApplication" />
         <item itemvalue="JUnit.ObstacleTest" />
@@ -116,25 +147,25 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="506" y="339" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.826@0.23.1440.826" timestamp="1587326289389" />
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1587330312887">
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1587330714514">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1587330312887" />
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1587330714514" />
     <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1587327261188" />
-    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1587330312884">
+    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1587330714512">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1587330312884" />
+    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1587330714512" />
     <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1587327261186" />
-    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1587330312883">
+    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1587330714510">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1587330312883" />
+    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1587330714510" />
     <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1587327261185" />
-    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1587330312885">
+    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1587330714513">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1587330312885" />
+    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1587330714513" />
     <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1587327261187" />
     <state x="270" y="113" key="Maven.ArtifactSearchDialog" timestamp="1587326604074">
       <screen x="0" y="23" width="1440" height="826" />
