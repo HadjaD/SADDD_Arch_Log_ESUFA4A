@@ -4,10 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class PlanetMapInit implements PlanetMap {
-    private int height;
-    private int weight;
+    private final int height;
+    private final int weight;
     private Set<Position> obstacles;
-    double rate;
+    private final double rate;
     public PlanetMapInit(int height, int weight, double rate){
         this.height = height;
         this.weight = weight;
@@ -33,19 +33,11 @@ public class PlanetMapInit implements PlanetMap {
 
     public void initObstacles() {
         this.obstacles = new HashSet<Position>();
-        int x = getHeight() / 2;
-        int x_ = -x + 1;
-        int y = getWidth() / 2;
-        int y_ = -y + 1;
+        int x = getHeight() / 2, x_ = -x + 1, y = getWidth() / 2, y_ = -y + 1;
         int nbObstacles = (int) ((int) x * y * 4 * rate);
-        int xObstacle;
-        int yObstacle;
         for (int i = 0; i < nbObstacles; i++) {
-            xObstacle = (int) (Math.random() * (x - x_)) + x_;
-            yObstacle = (int) (Math.random() * (y - y_)) + y_;
-            this.obstacles.add(Position.of(xObstacle, yObstacle, Direction.NORTH));
-
-            //addObstacles(position);
+            this.obstacles.add(Position.of((int) (Math.random() * (x - x_)) + x_,
+                (int) (Math.random() * (y - y_)) + y_,Direction.NORTH));
         }
     }
     public void addObstacle(Position position){

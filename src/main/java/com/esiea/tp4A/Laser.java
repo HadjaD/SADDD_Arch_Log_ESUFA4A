@@ -2,14 +2,14 @@ package com.esiea.tp4A;
 
 public class Laser {
     //private final PlanetMapInit planetMapInit;
-    private int range;
+    private final int range;
 
     public Laser(PlanetMapInit planetMapInit, int range){
-
+        this.range = range;
     }
 
-    public void Range(int range){
-        this.range = range;
+    public int getRange(){
+        return range;
     }
 
 
