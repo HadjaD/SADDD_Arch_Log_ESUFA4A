@@ -1,4 +1,4 @@
-package com.esiea.tp4A.domain;
+package com.esiea.tp4A;
 
 public class Laser {
     //private final PlanetMapInit planetMapInit;

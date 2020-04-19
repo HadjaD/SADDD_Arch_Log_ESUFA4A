@@ -1,11 +1,7 @@
-package com.esiea.tp4A.domain;
+package com.esiea.tp4A;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-
-import static java.util.Collections.emptySet;
 
 public class PlanetMapInit implements PlanetMap {
     private int height;
