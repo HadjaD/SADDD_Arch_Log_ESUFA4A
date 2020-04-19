@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9287c4-2a0f-4ef9-86bf-4c663e5904cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mail.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/MarsRover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/PlanetMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/PlanetMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRover.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ArchitectureLogicielle.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="Application.JeuApplication">
     <configuration name="JeuApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
