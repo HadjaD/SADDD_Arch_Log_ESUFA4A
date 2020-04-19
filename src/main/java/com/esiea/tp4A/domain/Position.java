@@ -1,5 +1,7 @@
 package com.esiea.tp4A.domain;
 
+import com.esiea.tp4A.jeu.Obstacle;
+
 public interface Position {
     int getX();
     int getY();
@@ -124,7 +126,7 @@ public interface Position {
             return Position.of(x, y, direction.right());
         }
         private boolean hasObstacle(int x, int y, PlanetMap map) {
-            for (Position obstacle : map.obstaclePositions()) {
+            for (Obstacle obstacle : map.obstaclePositions()) {
                 if (obstacle.getX() == x && obstacle.getY() == y) {
                    isObstacle = true;
                     return true;
