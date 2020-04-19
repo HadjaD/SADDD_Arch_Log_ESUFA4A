@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9287c4-2a0f-4ef9-86bf-4c663e5904cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/CircularPointTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/JeuGestionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/JeuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/LocalMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/MapFuncsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/MarsRoverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/RequestHandlerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/RoverPositionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/RequestHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/RequestHandlerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RequestHandlerTest">
     <configuration name="JeuApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.api.JeuApplication" />
       <module name="SADDD_Arch_Log_ESUFA4A-master" />
@@ -50,8 +43,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RequestHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SADDD_Arch_Log_ESUFA4A-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esiea.tp4A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esiea.tp4A" />
+      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.RequestHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RequestHandlerTest" />
         <item itemvalue="Application.JeuApplication" />
       </list>
     </recent_temporary>
@@ -74,21 +83,21 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="470" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.826@0.23.1440.826" timestamp="1587333558261" />
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1587335147881">
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1587336887110">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1587335147881" />
-    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1587335147880">
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1587336887110" />
+    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1587336887109">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1587335147880" />
-    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1587335147880">
+    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1587336887109" />
+    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1587336887108">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1587335147880" />
-    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1587335147881">
+    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1587336887108" />
+    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1587336887110">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1587335147881" />
+    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1587336887110" />
   </component>
 </project>
