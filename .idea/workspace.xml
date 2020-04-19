@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24672ad0-0e7c-4375-b2d3-bf0178e745c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/CarteSpherique30Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/esiea/tp4A/CarteSpherique30Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/esiea/tp4A/domain/CarteSpherique50Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +46,7 @@
       <recent name="com.esiea.tp4A" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ObstacleTest.test_obstacle_get">
+  <component name="RunManager" selected="JUnit.com.esiea.tp4A in SADDD_Arch_Log_ESUFA4A">
     <configuration name="JeuApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.api.JeuApplication" />
       <module name="SADDD_Arch_Log_ESUFA4A-master" />
@@ -86,8 +91,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.esiea.tp4A in SADDD_Arch_Log_ESUFA4A" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SADDD_Arch_Log_ESUFA4A" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esiea.tp4A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esiea.tp4A" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.esiea.tp4A in SADDD_Arch_Log_ESUFA4A" />
         <item itemvalue="JUnit.ObstacleTest.test_obstacle_get" />
         <item itemvalue="Application.JeuApplication" />
         <item itemvalue="JUnit.ObstacleTest" />
@@ -116,29 +136,42 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="506" y="339" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.826@0.23.1440.826" timestamp="1587326289389" />
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1587330312887">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587331813944">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587331813944" />
     <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1587330312887" />
     <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1587327261188" />
-    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1587330312884">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587331813943">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587331813943" />
     <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1587330312884" />
     <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1587327261186" />
-    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1587330312883">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587331813943">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587331813943" />
     <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1587330312883" />
     <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1587327261185" />
-    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1587330312885">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587331813943">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587331813943" />
     <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1587330312885" />
     <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1587327261187" />
     <state x="270" y="113" key="Maven.ArtifactSearchDialog" timestamp="1587326604074">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="270" y="113" key="Maven.ArtifactSearchDialog/0.23.1440.826@0.23.1440.826" timestamp="1587326604074" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1587331761815">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587331761815" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SADDD_Arch_Log_ESUFA4A$com_esiea_tp4A_in_SADDD_Arch_Log_ESUFA4A.ic" NAME="com.esiea.tp4A in SADDD_Arch_Log_ESUFA4A Coverage Results" MODIFIED="1587331806136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.esiea.tp4A.*</FILTER>
+    </SUITE>
   </component>
 </project>

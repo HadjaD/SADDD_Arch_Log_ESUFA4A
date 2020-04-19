@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Direction.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ArchitectureLogicielle</a> &gt; <a href="index.source.html" class="el_package">com.esiea.tp4A.domain</a> &gt; <span class="el_source">Direction.java</span></div><h1>Direction.java</h1><pre class="source lang-java linenums">package com.esiea.tp4A.domain;
+
+<span class="fc" id="L3">public enum Direction {</span>
+<span class="fc" id="L4">    NORTH, EAST, SOUTH, WEST;</span>
+
+    public Direction left() {
+<span class="fc" id="L7">        int leftOrdinal = ordinal() - 1;</span>
+<span class="fc" id="L8">        Direction[] values = Direction.values();</span>
+<span class="fc bfc" id="L9" title="All 2 branches covered.">        return values [leftOrdinal &lt; 0 ? values.length - 1 : leftOrdinal ];</span>
+    }
+
+    public Direction right() {
+<span class="fc" id="L13">        int rightOrdinal = ordinal() + 1;</span>
+<span class="fc" id="L14">        Direction[] values = Direction.values();</span>
+<span class="fc bfc" id="L15" title="All 2 branches covered.">        return values [rightOrdinal &gt; values.length - 1 ? 0 : rightOrdinal ];</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
