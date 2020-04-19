@@ -1,4 +1,4 @@
-package com.esiea.tp4A;
+package com.esiea.tp4A.jeu;
 
 import com.esiea.tp4A.domain.Direction;
 import com.esiea.tp4A.domain.MarsRover;

@@ -1,7 +1,11 @@
-package com.esiea.tp4A.domain;
+package com.esiea.tp4A;
 
+import com.esiea.tp4A.domain.Direction;
+import com.esiea.tp4A.domain.MarsRover;
+import com.esiea.tp4A.domain.Position;
+import com.esiea.tp4A.jeu.MarsRoverImpl;
+import com.esiea.tp4A.jeu.PlanetMapInit;
 import org.assertj.core.api.Assertions;
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;

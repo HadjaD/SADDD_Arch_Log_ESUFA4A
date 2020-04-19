@@ -1,26 +1,17 @@
 package com.esiea.tp4A;
 
-import com.esiea.tp4A.domain.Direction;
-import com.esiea.tp4A.domain.MarsRover;
-import com.esiea.tp4A.domain.Position;
+import com.esiea.tp4A.jeu.Obstacle;
 import org.assertj.core.api.Assertions;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.api.Test;
+
 
 public class ObstacleTest {
-    PlanetMapInit map = new PlanetMapInit(50, 50, 0.15);
-    int height;
-    int weight;
 
-    @ParameterizedTest
-    @CsvSource({
-        "rf, 25, 0, EAST",
-    })
-    void rover_should_not_move_when_obstacle_found(String command, int expectedX, int expectedY, Direction expectedDirection){
-        map.addObstacle(Position.of(2, 2, Direction.NORTH));
-        map.addObstacle(Position.of(-24, 0, Direction.NORTH));
-        MarsRover marsRover = new MarsRoverImpl(25, 0, Direction.NORTH, map);
-        Position newPosition = marsRover.move(command);
-        Assertions.assertThat(newPosition).isEqualToComparingFieldByField(Position.of(expectedX, expectedY, expectedDirection));
+    @Test
+    void test_obstacle_get() {
+        Obstacle obstacle = new Obstacle(1, 2);
+        Assertions.assertThat(obstacle.getX()).as("ObstaclePointX").isEqualTo(1);
+        Assertions.assertThat(obstacle.getY()).as("ObstaclePointY").isEqualTo(2);
     }
+
 }
