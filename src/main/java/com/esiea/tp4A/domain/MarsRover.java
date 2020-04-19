@@ -1,4 +1,5 @@
-package com.esiea.tp4A;
+package com.esiea.tp4A.domain;
+
 public interface MarsRover {
 
     default MarsRover initialize(Position position) { return this; }

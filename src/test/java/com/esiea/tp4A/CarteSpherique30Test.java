@@ -1,5 +1,8 @@
 package com.esiea.tp4A;
 
+import com.esiea.tp4A.domain.Direction;
+import com.esiea.tp4A.domain.MarsRover;
+import com.esiea.tp4A.domain.Position;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;

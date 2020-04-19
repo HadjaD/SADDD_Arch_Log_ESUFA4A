@@ -1,8 +1,13 @@
 package com.esiea.tp4A;
 
+import com.esiea.tp4A.domain.Direction;
+import com.esiea.tp4A.domain.MarsRover;
+import com.esiea.tp4A.domain.PlanetMap;
+import com.esiea.tp4A.domain.Position;
+
 public class MarsRoverImpl implements MarsRover {
 
-	private  Position position;
+	private Position position;
 	private final PlanetMap map;
 
 	public MarsRoverImpl(int x, int y, Direction direction, PlanetMap map) {

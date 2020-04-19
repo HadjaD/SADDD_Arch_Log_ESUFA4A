@@ -1,5 +1,9 @@
 package com.esiea.tp4A;
 
+import com.esiea.tp4A.domain.Direction;
+import com.esiea.tp4A.domain.PlanetMap;
+import com.esiea.tp4A.domain.Position;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -37,7 +41,7 @@ public class PlanetMapInit implements PlanetMap {
         int nbObstacles = (int) ((int) x * y * 4 * rate);
         for (int i = 0; i < nbObstacles; i++) {
             this.obstacles.add(Position.of((int) (Math.random() * (x - x_)) + x_,
-                (int) (Math.random() * (y - y_)) + y_,Direction.NORTH));
+                (int) (Math.random() * (y - y_)) + y_, Direction.NORTH));
         }
     }
     public void addObstacle(Position position){
