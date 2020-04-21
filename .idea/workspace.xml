@@ -2,10 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9287c4-2a0f-4ef9-86bf-4c663e5904cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mail.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/CarteJeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/MarsRoverAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/MarsRoverImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/PlanetMapInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/CarteSpherique50Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/MarsRoverImplementationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarsRover.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ArchitectureLogicielle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/api/JeuGestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/api/JeuGestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/api/RequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/PlanetMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/PlanetMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/domain/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/CircularPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Laser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/LocalMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/MapFuncs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Mars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Obstacle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/PlayerOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/RandomJeu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/Rover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/RoverApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/esiea/tp4A/jeu/RoverPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/CircularPointTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/JeuGestionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/JeuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/LocalMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/MapFuncsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/MarsRoverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/ObstacleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/ObstacleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/RequestHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/esiea/tp4A/RoverPositionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/api/JeuGestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/api/JeuGestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/api/RequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/MarsRover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/MarsRover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/PlanetMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/PlanetMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position$FixedPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position$FixedPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/domain/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/CircularPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/Jeu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/Jeu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/Laser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/LocalMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/MapFuncs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/Mars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/Obstacle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/PlayerOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/RandomJeu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/Rover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/RoverApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/RoverPosition$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/esiea/tp4A/jeu/RoverPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/esiea/tp4A/ObstacleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/esiea/tp4A/ObstacleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +72,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1amIZ0hma40iZnLWIofCVGihWGc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,7 +89,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.JeuApplication">
+  <component name="RunManager" selected="JUnit.MoveForwardBackwardTest">
     <configuration name="JeuApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.api.JeuApplication" />
       <module name="SADDD_Arch_Log_ESUFA4A-master" />
@@ -46,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarteSpherique50Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SADDD_Arch_Log_ESUFA4A-master" />
       <extension name="coverage">
         <pattern>
@@ -55,7 +112,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.esiea.tp4A" />
-      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.RequestHandlerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.CarteSpherique50Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarsRoverImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SADDD_Arch_Log_ESUFA4A-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esiea.tp4A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esiea.tp4A" />
+      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.MarsRoverImplementationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveForwardBackwardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SADDD_Arch_Log_ESUFA4A-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esiea.tp4A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esiea.tp4A" />
+      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.MoveForwardBackwardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObstacleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SADDD_Arch_Log_ESUFA4A-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.esiea.tp4A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.esiea.tp4A" />
+      <option name="MAIN_CLASS_NAME" value="com.esiea.tp4A.ObstacleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,8 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoveForwardBackwardTest" />
         <item itemvalue="Application.JeuApplication" />
-        <item itemvalue="JUnit.RequestHandlerTest" />
+        <item itemvalue="JUnit.MarsRoverImplementationTest" />
+        <item itemvalue="JUnit.CarteSpherique50Test" />
+        <item itemvalue="JUnit.ObstacleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -82,29 +187,58 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="470" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587333558261">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="514" y="203" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1587419034174">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="514" y="203" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.828@0.23.1440.828" timestamp="1587419034174" />
+    <state x="589" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1587434494728">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="589" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1587434494728" />
+    <state x="231" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587432665449">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="231" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.825@0.23.1440.825" timestamp="1587432665449" />
+    <state x="470" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587415250007">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="470" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.826@0.23.1440.826" timestamp="1587333558261" />
-    <state width="1358" height="203" key="GridCell.Tab.0.bottom" timestamp="1587338826640">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="470" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.829@0.23.1440.829" timestamp="1587415250007" />
+    <state x="444" y="23" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog" timestamp="1587435849138">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state x="444" y="23" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.23.1440.825@0.23.1440.825" timestamp="1587435849138" />
+    <state width="1333" height="203" key="GridCell.Tab.0.bottom" timestamp="1587436131726">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1333" height="203" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1587436131726" />
     <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1587337022865" />
     <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1587338826640" />
-    <state width="1358" height="203" key="GridCell.Tab.0.center" timestamp="1587338826639">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1358" height="203" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1587420460480" />
+    <state width="1333" height="203" key="GridCell.Tab.0.center" timestamp="1587436131723">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state width="1333" height="203" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1587436131723" />
     <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1587337022864" />
     <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1587338826639" />
-    <state width="1358" height="203" key="GridCell.Tab.0.left" timestamp="1587338826638">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1358" height="203" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1587420460478" />
+    <state width="1333" height="203" key="GridCell.Tab.0.left" timestamp="1587436131722">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state width="1333" height="203" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1587436131722" />
     <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1587337022863" />
     <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1587338826638" />
-    <state width="1358" height="203" key="GridCell.Tab.0.right" timestamp="1587338826640">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1358" height="203" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1587420460476" />
+    <state width="1333" height="203" key="GridCell.Tab.0.right" timestamp="1587436131724">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state width="1333" height="203" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1587436131724" />
     <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1587337022864" />
     <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1587338826640" />
+    <state width="1358" height="203" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1587420460479" />
+    <state x="264" y="185" key="caller.chooser.dialog" timestamp="1587435671097">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="264" y="185" key="caller.chooser.dialog/0.23.1440.825@0.23.1440.825" timestamp="1587435671097" />
   </component>
 </project>
